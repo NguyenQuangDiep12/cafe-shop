@@ -1,0 +1,25 @@
+.scrollable-container {
+    max-height: 300px; /* Chiều cao tối đa */
+    overflow-y: auto; /* Thanh cuộn dọc */
+    padding-right: 5px; /* Tránh che mất nội dung */
+  }
+  
+  /* Tùy chỉnh thanh cuộn (chỉ hiển thị trên trình duyệt Chrome) */
+  .scrollable-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
