@@ -71,7 +71,7 @@ function ProductCarousel() {
     <div className="product-carousel position-relative">
       <div>Hello</div>
       {/* Custom Button Prev */}
-      <button className="custom-prev btn btn-dark" onClick={() => swiperRef.current.swiper.slidePrev()}>&lt;</button>
+      <button className="custom-prev btn btn-dark" onClick={() => swiperRef.current.slidePrev()}>&lt;</button>
 
       <Swiper
         ref={swiperRef}

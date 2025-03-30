@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import LogoImg from "../../assets/images/logo-TGCF-224.png"
 
 function Footer() {
   return (
@@ -9,7 +9,7 @@ function Footer() {
           {/* Cột 1: Logo */}
           <div className="col-md-2 text-center mb-3">
             <a href="#">
-              <img src="/path/to/logo.png" alt="Trung Nguyen Legend" className="img-fluid" />
+              <img src={LogoImg} alt="Trung Nguyen Legend" className="img-fluid" />
             </a>
           </div>
 
@@ -17,13 +17,13 @@ function Footer() {
           <div className="col-md-2">
             <h6 className="text-warning">VỀ CHÚNG TÔI</h6>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-light">Giới thiệu</a></li>
-              <li><a href="#" className="text-light">Vị trí cửa hàng</a></li>
-              <li><a href="#" className="text-light">Câu hỏi thường gặp</a></li>
-              <li><a href="#" className="text-light">Chính sách và điều khoản</a></li>
-              <li><a href="#" className="text-light">Chính sách bảo mật</a></li>
-              <li><a href="#" className="text-light">Đăng ký đối tác</a></li>
-              <li><a href="#" className="text-light">Liên hệ</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Giới thiệu</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Vị trí cửa hàng</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Câu hỏi thường gặp</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Chính sách và điều khoản</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Chính sách bảo mật</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Đăng ký đối tác</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Liên hệ</a></li>
             </ul>
           </div>
 
@@ -43,7 +43,7 @@ function Footer() {
               <img src="/path/to/payment1.png" className="img-fluid mb-2" alt="Visa" />
               <img src="/path/to/payment2.png" className="img-fluid mb-2" alt="MasterCard" />
             </div>
-            <a href="#" className="text-light">Cách thức thanh toán</a>
+            <a href="#" className="text-light text-decoration-none">Cách thức thanh toán</a>
           </div>
 
           {/* Cột 5: Đối tác vận chuyển */}
@@ -54,9 +54,9 @@ function Footer() {
               <img src="/path/to/shipping2.png" className="img-fluid mb-2" alt="GHN" />
             </div>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-light">Chính sách giao nhận</a></li>
-              <li><a href="#" className="text-light">Chính sách bảo hành</a></li>
-              <li><a href="#" className="text-light">Chính sách đổi trả</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Chính sách giao nhận</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Chính sách bảo hành</a></li>
+              <li><a href="#" className="text-light text-decoration-none">Chính sách đổi trả</a></li>
             </ul>
           </div>
 
